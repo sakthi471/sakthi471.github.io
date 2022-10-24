@@ -42,7 +42,7 @@
   list-style: none;
 }
 .header-item .active {
-  color: #95eb0b;
+  color: #191dff;
 }
 .header-link {
   text-decoration: none;
@@ -51,18 +51,18 @@
   text-transform: uppercase;
 }
 .header-link:hover {
-  color: #0206f3;
+  color: #4e51fc;
 }
 
 .header-btn button {
   border: none;
   padding: 5px 20px;
-  background-color: #95eb0b;
+  background-color: #191dff;
   border-radius: 5px;
   color: white;
 }
 .header-btn button:hover {
-  background-color: #0206f3;
+  background-color: #4e51fc;
 }
 
 .form-control {
@@ -75,7 +75,7 @@
   margin-top: 10px;
 }
 .form-control:focus {
-  border: 2px solid #95eb0b;
+  border: 2px solid #191dff;
 }
 
 .anim {
@@ -103,13 +103,13 @@
 .header-btn button {
   border: none;
   padding: 5px 20px;
-  background-color: #95eb0b;
+  background-color: #191dff;
   border-radius: 5px;
   color: white;
 }
 
 .header-btn button:hover {
-  background-color: #0206f3;
+  background-color: #4e51fc;
 }
 
 .hero-area {
@@ -139,29 +139,29 @@
 .hero-area-btn .active {
   border: none;
   padding: 5px 20px;
-  background-color: #95eb0b;
+  background-color: #191dff;
   border-radius: 5px;
   color: white;
 }
 .hero-area-btn .active:hover {
-  background-color: #0206f3;
+  background-color: #4e51fc;
 }
 .hero-area-btn button {
   border: 1px solid;
   padding: 5px 20px;
   background-color: white;
   border-radius: 5px;
-  color: #95eb0b;
+  color: #191dff;
   margin-left: 10px;
   cursor: pointer;
 }
 .hero-area-btn button:hover {
-  background-color: #95eb0b;
+  background-color: #191dff;
   color: white;
 }
 
 .about-area {
-  background-color: #95eb0b;
+  background-color: #191dff;
   display: flex;
   max-width: 100%;
   align-items: center;
@@ -215,16 +215,16 @@
   text-align: center;
   background-color: white;
   max-width: 400px;
-  padding: 20px;
+  padding: 10px 10px;
   height: 200px;
   box-shadow: 0px 2px 8px rgb(80, 79, 79);
   border-radius: 10px;
 }
 .roadmap--item:hover {
-  box-shadow: 0px 2px 8px #95eb0b;
+  box-shadow: 0px 2px 8px #191dff;
 }
 .roadmap--item:hover h3:hover {
-  color: #95eb0b;
+  color: #191dff;
 }
 .roadmap--item img {
   width: 100px;
@@ -234,11 +234,11 @@
   color: grey;
 }
 .roadmap--item--content p {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .courses {
-  background-color: #95eb0b;
+  background-color: #191dff;
   padding: 30px;
   margin-top: 90px;
 }
@@ -275,19 +275,19 @@
 }
 .courses--carde_desc p {
   line-height: 25px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .header-btn button {
   border: none;
   padding: 5px 20px;
-  background-color: #95eb0b;
+  background-color: #191dff;
   border-radius: 5px;
   color: white;
 }
 
 .header-btn button:hover {
-  background-color: #0206f3;
+  background-color: #4e51fc;
 }
 
 .contact {
@@ -321,7 +321,7 @@
   margin-top: 10px;
   outline: none;
   border: none;
-  background-color: #95eb0b;
+  background-color: #191dff;
   color: white;
 }
 .contact-img img {
@@ -334,7 +334,7 @@
 }
 
 footer {
-  background-color: #95eb0b;
+  background-color: #191dff;
   padding: 30px 30px;
   text-align: center;
   color: #fff;
@@ -351,9 +351,6 @@ footer img {
 footer .name {
   font-size: 30px;
   margin-left: -24px;
-  background: linear-gradient(to right, rgb(183, 255, 174), rgb(255, 252, 65));
-  background-clip: text;
-  color: transparent;
 }
 
 .social-icons {
@@ -363,9 +360,10 @@ footer .name {
   margin-left: 10px;
   font-size: 30px;
   transition: 0.5s;
+  color: white;
 }
 .social-icons a:hover {
-  color: #fff;
+  color: rgb(255, 145, 0);
 }
 
 p {
@@ -382,5 +380,5 @@ p {
   margin-top: 10px;
 }
 .form-control:focus {
-  border: 2px solid #95eb0b;
+  border: 2px solid #191dff;
 }/*# sourceMappingURL=main.css.map */
