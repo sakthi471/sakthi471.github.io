@@ -42,7 +42,7 @@
   list-style: none;
 }
 .header-item .active {
-  color: #fd853f;
+  color: #95eb0b;
 }
 .header-link {
   text-decoration: none;
@@ -57,7 +57,7 @@
 .header-btn button {
   border: none;
   padding: 5px 20px;
-  background-color: #fd853f;
+  background-color: #95eb0b;
   border-radius: 5px;
   color: white;
 }
@@ -75,7 +75,7 @@
   margin-top: 10px;
 }
 .form-control:focus {
-  border: 2px solid #fd853f;
+  border: 2px solid #95eb0b;
 }
 
 .anim {
@@ -103,7 +103,7 @@
 .header-btn button {
   border: none;
   padding: 5px 20px;
-  background-color: #fd853f;
+  background-color: #95eb0b;
   border-radius: 5px;
   color: white;
 }
@@ -139,7 +139,7 @@
 .hero-area-btn .active {
   border: none;
   padding: 5px 20px;
-  background-color: #fd853f;
+  background-color: #95eb0b;
   border-radius: 5px;
   color: white;
 }
@@ -151,17 +151,17 @@
   padding: 5px 20px;
   background-color: white;
   border-radius: 5px;
-  color: #fd853f;
+  color: #95eb0b;
   margin-left: 10px;
   cursor: pointer;
 }
 .hero-area-btn button:hover {
-  background-color: #fd853f;
+  background-color: #95eb0b;
   color: white;
 }
 
 .about-area {
-  background-color: #fd853f;
+  background-color: #95eb0b;
   display: flex;
   max-width: 100%;
   align-items: center;
@@ -221,10 +221,10 @@
   border-radius: 10px;
 }
 .roadmap--item:hover {
-  box-shadow: 0px 2px 8px #fd853f;
+  box-shadow: 0px 2px 8px #95eb0b;
 }
 .roadmap--item:hover h3:hover {
-  color: #fd853f;
+  color: #95eb0b;
 }
 .roadmap--item img {
   width: 100px;
@@ -238,7 +238,7 @@
 }
 
 .courses {
-  background-color: #fd853f;
+  background-color: #95eb0b;
   padding: 30px;
   margin-top: 90px;
 }
@@ -281,7 +281,7 @@
 .header-btn button {
   border: none;
   padding: 5px 20px;
-  background-color: #fd853f;
+  background-color: #95eb0b;
   border-radius: 5px;
   color: white;
 }
@@ -321,7 +321,7 @@
   margin-top: 10px;
   outline: none;
   border: none;
-  background-color: #fd853f;
+  background-color: #95eb0b;
   color: white;
 }
 .contact-img img {
@@ -334,7 +334,7 @@
 }
 
 footer {
-  background-color: #fd853f;
+  background-color: #95eb0b;
   padding: 30px 30px;
   text-align: center;
   color: #fff;
@@ -382,5 +382,5 @@ p {
   margin-top: 10px;
 }
 .form-control:focus {
-  border: 2px solid #fd853f;
+  border: 2px solid #95eb0b;
 }/*# sourceMappingURL=main.css.map */
