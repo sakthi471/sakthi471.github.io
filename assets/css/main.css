@@ -42,7 +42,7 @@
   list-style: none;
 }
 .header-item .active {
-  color: #3f43fd;
+  color: #fd853f;
 }
 .header-link {
   text-decoration: none;
@@ -57,7 +57,7 @@
 .header-btn button {
   border: none;
   padding: 5px 20px;
-  background-color: #3f43fd;
+  background-color: #fd853f;
   border-radius: 5px;
   color: white;
 }
@@ -75,31 +75,12 @@
   margin-top: 10px;
 }
 .form-control:focus {
-  border: 2px solid #3f43fd;
+  border: 2px solid #fd853f;
 }
 
 .anim {
   transition: 500ms;
-  -webkit-animation: color-change 10s infinite;
-          animation: color-change 10s infinite;
-}
-
-@-webkit-keyframes color-change {
-  0% {
-    color: red;
-  }
-  25% {
-    color: rgb(255, 102, 0);
-  }
-  50% {
-    color: rgb(0, 89, 255);
-  }
-  75% {
-    color: rgb(136, 255, 0);
-  }
-  100% {
-    color: rgb(200, 255, 0);
-  }
+  animation: color-change 10s infinite;
 }
 
 @keyframes color-change {
@@ -122,7 +103,7 @@
 .header-btn button {
   border: none;
   padding: 5px 20px;
-  background-color: #3f43fd;
+  background-color: #fd853f;
   border-radius: 5px;
   color: white;
 }
@@ -158,7 +139,7 @@
 .hero-area-btn .active {
   border: none;
   padding: 5px 20px;
-  background-color: #3f43fd;
+  background-color: #fd853f;
   border-radius: 5px;
   color: white;
 }
@@ -170,17 +151,17 @@
   padding: 5px 20px;
   background-color: white;
   border-radius: 5px;
-  color: #3f43fd;
+  color: #fd853f;
   margin-left: 10px;
   cursor: pointer;
 }
 .hero-area-btn button:hover {
-  background-color: #3f43fd;
+  background-color: #fd853f;
   color: white;
 }
 
 .about-area {
-  background-color: #3f43fd;
+  background-color: #fd853f;
   display: flex;
   max-width: 100%;
   align-items: center;
@@ -240,10 +221,10 @@
   border-radius: 10px;
 }
 .roadmap--item:hover {
-  box-shadow: 0px 2px 8px #3f43fd;
+  box-shadow: 0px 2px 8px #fd853f;
 }
 .roadmap--item:hover h3:hover {
-  color: #3f43fd;
+  color: #fd853f;
 }
 .roadmap--item img {
   width: 100px;
@@ -257,7 +238,7 @@
 }
 
 .courses {
-  background-color: #3f43fd;
+  background-color: #fd853f;
   padding: 30px;
   margin-top: 90px;
 }
@@ -300,7 +281,7 @@
 .header-btn button {
   border: none;
   padding: 5px 20px;
-  background-color: #3f43fd;
+  background-color: #fd853f;
   border-radius: 5px;
   color: white;
 }
@@ -340,7 +321,7 @@
   margin-top: 10px;
   outline: none;
   border: none;
-  background-color: #3f43fd;
+  background-color: #fd853f;
   color: white;
 }
 .contact-img img {
@@ -353,7 +334,7 @@
 }
 
 footer {
-  background-color: #3f43fd;
+  background-color: #fd853f;
   padding: 30px 30px;
   text-align: center;
   color: #fff;
@@ -371,8 +352,7 @@ footer .name {
   font-size: 30px;
   margin-left: -24px;
   background: linear-gradient(to right, rgb(183, 255, 174), rgb(255, 252, 65));
-  -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
@@ -402,5 +382,5 @@ p {
   margin-top: 10px;
 }
 .form-control:focus {
-  border: 2px solid #3f43fd;
+  border: 2px solid #fd853f;
 }/*# sourceMappingURL=main.css.map */
