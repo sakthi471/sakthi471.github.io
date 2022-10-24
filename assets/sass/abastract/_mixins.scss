@@ -1,0 +1,50 @@
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { ... }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+
+// // X-Large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }
+
+// // XX-Large devices (larger desktops, 1400px and up)
+// @media (min-width: 1400px) { ... }
+
+@mixin responsive($breakpoint) {
+    @if($breakpoint==xs){
+    @media (max-width:575px) {
+       @content;
+    }
+       
+    }
+    @else if($breakpoint==sm){
+        @media (min-width:576px) { 
+            @content;
+        }
+    }
+    @else if($breakpoint==md){
+        @media (min-width: 768px) { 
+            @content;
+
+        }
+    }
+   @else if($breakpoint==lg){
+    @media (min-width: 992px) {
+        @content;
+    }
+   }
+   @else if($breakpoint==xlg){
+    @media (min-width: 1200px) {
+        @content;
+    }
+   }
+   @else if($breakpoint==xxlg){
+    @media (min-width: 1400px) {
+        @content;
+    }
+   }
+
+}

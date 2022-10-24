@@ -1,13 +1,18 @@
 @use "../abastract/functions" as fun;
-
+@use "../abastract/mixins" as mix;
 .courses {
     background-color: fun.theme-color();
     padding: 30px;
     margin-top: 90px;
-
+    @include mix.responsive(xs){
+        padding: 100px 30px;
+    }
     &--heading {
         text-align: center;
-
+        @include mix.responsive(xs)
+         {  margin-top: -50px;
+            
+         }
         h1 {
             color: #fff;
         }
@@ -24,6 +29,10 @@
         display: flex;
         margin-top: 50px;
         justify-content: space-around;
+        @include mix.responsive(xs){
+           flex-direction: column;
+           margin-top: 10px;
+           }
        
     }
     &--carde{
@@ -31,16 +40,34 @@
         height: 440px;
         background-color:rgb(199, 197, 196);
         border-radius: 10px;
+        @include mix.responsive(xs){
+            margin-top: 50px;
+            width: 250px;
+            height: 400px;
+        
+            
+        }
         img{
             width: 300px;
              border-top-left-radius:10px ;
              border-top-right-radius:10px ;
+             @include mix.responsive(xs){
+                width: 250px;
+             }
         }
     }
     &--carde_desc{
         padding: 20px;
+        h3{
+            @include mix.responsive(xs){
+                font-size: 15px;
+            }
+        }
         p{  line-height: 25px;
             font-size: 16px;
+            @include mix.responsive(xs){
+                font-size: 13px;
+            }
         }
         
     }

@@ -1,12 +1,19 @@
 @use "../components/btn";
 @use "../abastract/functions" as func;
 @use "../abastract/varaibles";
+@use "../abastract/mixins" as mix;
 
 .hero-area {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 700px;
     padding: 100px 200px;
+
+    @include mix.responsive(xs) {
+        flex-direction: column;
+        padding:100px 30px;
+    }
 
     //    background: rebeccapurple;
     &_content {
@@ -16,6 +23,11 @@
     &-title {
         font-size: 40px;
         line-height: 60px;
+        @include mix.responsive(xs){
+            font-size: 35px;
+            line-height: 50px;
+            
+         }
     }
 
     &_para {
@@ -27,9 +39,25 @@
 
     &-img img {
         width: 400px;
+
+        @include mix.responsive(xs) {
+            margin-top: 20px;
+            padding: 10px;
+        }
     }
-    &-btn{
+
+    &-btn {
+       
         margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        button{
+            padding: 7px 10px;
+            margin-top: 20px;
+           
+        }
+
     }
 
     &-btn .active {
@@ -43,19 +71,21 @@
     &-btn .active:hover {
         background-color: func.theme-color(priamry-hover);
     }
+
     &-btn button {
-        border: 1px solid ;
+        border: 1px solid;
         padding: 5px 20px;
         background-color: white;
         border-radius: 5px;
-        color:func.theme-color();
+        color: func.theme-color();
         margin-left: 10px;
         cursor: pointer;
     }
-    &-btn button:hover{
+
+    &-btn button:hover {
         background-color: func.theme-color();
         color: white;
-        
+
     }
-   
+
 }

@@ -1,9 +1,13 @@
 @use "../components/btn"as btn;
 @use "../abastract/functions" as fun;
+@use "../abastract/mixins" as mix;
 .contact{
     padding: 50px 150px;
     // width: 100%;
-    
+    @include mix.responsive(xs)
+    {
+       padding: 100px 20px;
+    }
     background: rgb(216, 214, 214);
     &--card{
         background-color: #fff;
@@ -12,13 +16,25 @@
         align-items: center;
         justify-content: space-between;
         border-radius: 10px ;
+        @include mix.responsive(xs)
+        {
+           flex-direction: column;
+           padding: 20px 5px;
+        }
         h2{
             margin-top: -20;
             font-size: 15px;
+            @include mix.responsive(xs)
+            {
+               font-size: 15px;
+            }
         }
         p{  color: grey;
             font-size: 12px;
-
+            @include mix.responsive(xs)
+            {
+               font-size: 12px;
+            }
         }
         .grow{
             flex-grow: 1;
@@ -39,6 +55,10 @@
    &-img img{
     width: 450px;
     padding: 10px;
+    @include mix.responsive(xs)
+    {
+       margin-left: 0px;
+    }
    }
     
 }

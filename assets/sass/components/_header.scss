@@ -1,4 +1,6 @@
 @use "../abastract/functions"  as func;
+@use "../abastract/mixins" as mix;
+
 .header{
     width: 100%;
     position: fixed;
@@ -8,15 +10,33 @@
     justify-content: space-around;
     padding: 10px 60px;
     border-bottom: 0.5px solid #eee;
+    @include mix.responsive(xs){
+        width: 100%;
+        padding: 10px 20px;
+        justify-content: space-between;
+       
+        
+       
+    }
+    &-menu_btn img{
+      display: none;
+      @include mix.responsive(xs){
+       width: 30px;
+       display: block;
+    }
+    }
   &-logo{
     color:$primary-text-color;
    img{
     width: 60px;
    }
+  
   }
     &-menu{
     display: flex;
-
+    @include mix.responsive(xs){
+      display: none;
+  }
 
    }
    &-item{
