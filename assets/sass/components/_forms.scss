@@ -1,0 +1,14 @@
+@use"../abastract/functions"as fun;
+
+.form-control{
+    padding: 10px 30px;
+    background-color: rgb(226, 225, 225);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-top: 10px;
+    &:focus{
+        border: 2px solid fun.theme-color() ;
+    }
+}

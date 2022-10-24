@@ -1,0 +1,39 @@
+@use "../abastract/functions"  as func;
+.header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    background: #fff;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 60px;
+    border-bottom: 0.5px solid #eee;
+  &-logo{
+    color:$primary-text-color;
+   img{
+    width: 60px;
+   }
+  }
+    &-menu{
+    display: flex;
+
+
+   }
+   &-item{
+     display: inline-block;
+     margin-left: 40px;
+     list-style: none;
+     .active{
+      color: func.theme-color();
+     }
+    }
+    &-link{
+        text-decoration: none;
+        color: $primary-text-color;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    &-link:hover{
+      color:func.theme-color(priamry-hover);
+    }
+}

@@ -1,0 +1,49 @@
+@use "../abastract/functions" as fun;
+
+footer {
+    background-color: fun.theme-color();
+    padding: 30px 30px;
+    text-align: center;
+    color: #fff;
+
+    .brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left:-17px;
+    }
+    
+       img {
+        width: 90px;
+    
+    }
+
+
+    .name {
+        
+        font-size: 30px;
+        margin-left: -24px;
+        background:linear-gradient(to right,rgb(183, 255, 174),rgb(255, 252, 65));
+        background-clip: text;
+        color: transparent;
+    }
+}
+
+.social-icons {
+    margin-top: 10px;
+
+    a {
+        margin-left: 10px;
+        font-size: 30px;
+        transition: 0.5s;
+
+    }
+
+    a:hover {
+        color: #fff;
+    }
+    
+}
+p{
+    margin-top: 10px;
+}

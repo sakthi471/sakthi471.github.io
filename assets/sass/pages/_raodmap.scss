@@ -1,0 +1,60 @@
+@use "../abastract/functions" as func;
+.roadmap{
+    padding:40px 30px;
+    &--heading {
+        text-align: center;
+        h2{
+            font-size: 17px;
+        }
+        p{
+            font-size: 11px;
+            color: grey;
+            line-height: 30px;
+        }
+        .line{
+            width: 60px;
+            height: 5px;
+            background:linear-gradient(to right ,rgb(247, 11, 50),blue);
+            border-radius: 10px;
+            margin: 10px auto;
+        }
+    }
+
+    &--items{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 3rem;
+        width: 100%;
+    }
+    &--item{
+        text-align: center;
+        background-color: white;    
+        max-width: 400px;
+        padding: 20px;
+        height: 200px;
+        box-shadow: 0px 2px 8px rgb(80, 79, 79);
+        border-radius: 10px;
+    &:hover{
+    box-shadow: 0px 2px 8px func.theme-color() ;
+    h3:hover{
+        color: func.theme-color();
+    }
+    }
+
+        img{
+            width: 100px;
+            padding: 20px;
+        }
+    &--content{
+        color: grey;
+        
+       
+        p{
+            font-size: 12px;
+        }
+    }
+    }
+
+
+}

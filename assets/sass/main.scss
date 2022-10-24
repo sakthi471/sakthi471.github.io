@@ -1,0 +1,34 @@
+//varaibles 
+@import"./abastract/varaibles";
+ //reset
+@import"./base/reset";
+
+//header
+@import"./components/header";
+
+//btn 
+@import"./components/btn";
+//form
+@import"./components/forms";
+
+@import"./utilets/animation";
+//hoem page
+@import"./pages/home";
+//about page
+
+@import"./pages/about";
+//road map page
+@import"./pages/raodmap";
+
+//courese
+@import "./pages/courses";
+
+//contact
+
+@import"./pages/contact";
+
+//footer
+@import"./components/footer";
+//form
+
+@import"./components/forms";

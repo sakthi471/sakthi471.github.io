@@ -1,0 +1,48 @@
+@use "../abastract/functions" as fun;
+
+.courses {
+    background-color: fun.theme-color();
+    padding: 30px;
+    margin-top: 90px;
+
+    &--heading {
+        text-align: center;
+
+        h1 {
+            color: #fff;
+        }
+
+        p {
+            color:#fff;
+            font-size: 12px;
+            line-height: 20px;
+        }
+    }
+    &--cardes{
+        width: 100%;
+        // background-color: rgb(228, 219, 219);
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-around;
+       
+    }
+    &--carde{
+        width: 300px;
+        height: 440px;
+        background-color:rgb(199, 197, 196);
+        border-radius: 10px;
+        img{
+            width: 300px;
+             border-top-left-radius:10px ;
+             border-top-right-radius:10px ;
+        }
+    }
+    &--carde_desc{
+        padding: 20px;
+        p{  line-height: 25px;
+            font-size: 12px;
+        }
+        
+    }
+
+}

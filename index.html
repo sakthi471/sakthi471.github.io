@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Sass project</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-logo">
+            <img src="./assets/img/sass.png" alt="">
+        </div>
+        <nav class="header-menu">
+            <ul>
+                <li class="header-item"><a class="header-link active" href="#home">home</a></li>
+                <li class="header-item"><a class="header-link" href="#about">about</a></li>
+                <li class="header-item"><a class="header-link" href="#roadmap">roadmap</a></li>
+                <li class="header-item"><a class="header-link" href="#course">courses</a></li>
+                <li class="header-item header-btn"><a href="#contact" class="header-link"><button>contact us</button></a></li>
+            </ul>
+            <!-- <button>contact us</button> -->
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-area" id="home">
+            <div class="hero-area_content">
+                <h1 class="hero-area-title">#1 Social Platform to <br> Learn in </h1>
+                <p class="hero-area_para">Everyone deserves to learn technology in their native language, to support
+                    this, we have created this
+                    simple platform where you can learn about technology...
+                <div class="hero-area-btn">
+                    <button class="active"> watch free</button>
+                    <button class="">learn more</button>
+
+                </div>
+                </p>
+            </div>
+            <div class="hero-area-img">
+                <img src="./assets/img/web-design-illustration.png" alt="">
+            </div>
+        </section>
+
+        <section class="about-area">
+            <div>
+                <img src="./assets/img/web-development-illustration.png" class="about-area--img" alt="">
+
+            </div>
+            <div class="about-area--content" id="about">
+                <h2>Learning never been this easy!</h2>
+                <p>We all speak native language to native people around us. Why we have to learn technology only in
+                    English? Learning technology in native language will help us to understand the concept clearer and
+                    easier. So we started this initiative, where we will be teaching about technology in simple தமிழ்
+                    (Thamizh).</p>
+            </div>
+        </section>
+
+        <section class="roadmap" id="roadmap">
+            <div class="roadmap--heading">
+                <h2>Roadmap to Expertise</h2>
+                <p>Start it slow, finish it with style</p>
+                <div class="line"></div>
+            </div>
+            <div class="roadmap--items">
+                <div class="roadmap--item">
+                    <div>
+                        <img src="./assets/img/html-logo.png" alt="">
+                    </div>
+                    <div class="roadmap--item--content">
+                        <h3>Learn HTML5</h3>
+                        <p>Learn how to structure webpages .</p>
+                    </div>
+                </div>
+                <div class="roadmap--item">
+                    <div>
+                        <img src="./assets/img/css-logo.png" alt="">
+                    </div>
+                    <div class="roadmap--item--content">
+                        <h3>Learn CSS</h3>
+                        <p>Learn how to style good looking webpages.</p>
+                    </div>
+                </div>
+                <div class="roadmap--item">
+                    <div>
+                        <img src="./assets/img/js-logo.jpg" alt="">
+                    </div>
+                    <div class="roadmap--item--content">
+                        <h3>Learn JS</h3>
+                        <p>Learn how to interact with webpages.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="courses" id="course">
+            <div class="courses--heading">
+                <h1>Free Courses to Enroll</h1>
+                <p>Start from beginning, no pre-requesties required.</p>
+            </div>
+            <div class="courses--cardes">
+                <div class="courses--carde">
+                    <img src="/assets/img/html-boot.jpeg" alt="">
+                    <div class="courses--carde_desc">
+                        <h3>Learn HTML for beginners</h3>
+                        <p>Learn how to build web layouts & structures with best practices in mind, we will be
+                            building
+                            some web ui structure with semantic html tags. For more information, click here</p>
+
+                    </div>
+                </div>
+                <div class="courses--carde">
+                    <img src="/assets/img/css.png" alt="">
+                    <div class="courses--carde_desc">
+                        <h3>Learn CSS for Beginners</h3>
+                        <p>                            <p>Websites without CSS will be boring right? In this course, learn to build web user
+                            interfaces
+                            with awesome css with clear explanations in Tamil. For more information click here</p>
+
+                    </div>
+                </div>
+                <div class="courses--carde">
+                    <img src="/assets/img/js.png" alt="">
+                    <div class="courses--carde_desc">
+                        <h3>Learn Javascript</h3>
+                        <p>Make interactive websites easily, you will be learning javascript basics from start to
+                            end
+                            with practical applications and we gonna use this knowledge to build some UI with
+                            interactivity</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="contact " id="contact">
+            <div class="contact--card">
+                <form class="grow">
+                    <h2>Send us a Message</h2>
+                    <p>Share your info briefly as possible</p>
+                    <div>
+                        <input class="form-control " type="text" name="name" placeholder="Your name">
+                    </div>
+                    <div>
+                        <input class="form-control " type="eamil" name="name" placeholder="Your Email">
+                    </div>
+                    <div>
+                        <input class="form-control " type="text" name="name" placeholder="Subject">
+                    </div>
+                    <div>
+                       <textarea class="form-control resize-x" id="" cols="50" rows="10" placeholder="Share your message in detai"></textarea>
+                    </div>
+                    <button class="btn">Submit</button>
+                </form>
+
+
+                <div class="contact-img">
+
+                    <img src="./assets/img/cyberdude-contact.png" alt="">
+                </div>
+                    
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="brand">
+            <img src="./assets/img/slogo_low.png" alt="">
+            <div class="name">
+                <h3>akthi.</h3>
+            </div>
+        </div>
+
+        <div class="social-icons">
+            <a href="/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="/" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="/" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>© 2022 - All Rights Reserved.</p>
+        <p> i am iron man </p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+.anim{
+    transition: 500ms;
+    animation: color-change 10s infinite;
+}
+
+@keyframes  color-change {
+    0%{
+        color: red;
+
+    }
+    25%{
+        color: rgb(255, 102, 0);
+    }
+    50%{
+        color: rgb(0, 89, 255);
+    }
+    75%{
+        color: rgb(136, 255, 0);
+    }
+    100%{
+        color: rgb(200, 255, 0);
+    }
+}

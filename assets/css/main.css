@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&family=Roboto:ital,wght@0,500;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&family=Roboto:ital,wght@0,500;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&family=Roboto:ital,wght@0,500;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&family=Roboto:ital,wght@0,500;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&family=Roboto:ital,wght@0,500;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&family=Roboto:ital,wght@0,500;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&family=Roboto:ital,wght@0,500;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&family=Roboto:ital,wght@0,500;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&family=Roboto:ital,wght@0,500;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&family=Roboto:ital,wght@0,500;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&family=Roboto:ital,wght@0,500;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&family=Roboto:ital,wght@0,500;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  background: #fff;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 60px;
+  border-bottom: 0.5px solid #eee;
+}
+.header-logo {
+  color: black;
+}
+.header-logo img {
+  width: 60px;
+}
+.header-menu {
+  display: flex;
+}
+.header-item {
+  display: inline-block;
+  margin-left: 40px;
+  list-style: none;
+}
+.header-item .active {
+  color: #3f43fd;
+}
+.header-link {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.header-link:hover {
+  color: #0206f3;
+}
+
+.header-btn button {
+  border: none;
+  padding: 5px 20px;
+  background-color: #3f43fd;
+  border-radius: 5px;
+  color: white;
+}
+.header-btn button:hover {
+  background-color: #0206f3;
+}
+
+.form-control {
+  padding: 10px 30px;
+  background-color: rgb(226, 225, 225);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-top: 10px;
+}
+.form-control:focus {
+  border: 2px solid #3f43fd;
+}
+
+.anim {
+  transition: 500ms;
+  -webkit-animation: color-change 10s infinite;
+          animation: color-change 10s infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    color: red;
+  }
+  25% {
+    color: rgb(255, 102, 0);
+  }
+  50% {
+    color: rgb(0, 89, 255);
+  }
+  75% {
+    color: rgb(136, 255, 0);
+  }
+  100% {
+    color: rgb(200, 255, 0);
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  25% {
+    color: rgb(255, 102, 0);
+  }
+  50% {
+    color: rgb(0, 89, 255);
+  }
+  75% {
+    color: rgb(136, 255, 0);
+  }
+  100% {
+    color: rgb(200, 255, 0);
+  }
+}
+.header-btn button {
+  border: none;
+  padding: 5px 20px;
+  background-color: #3f43fd;
+  border-radius: 5px;
+  color: white;
+}
+
+.header-btn button:hover {
+  background-color: #0206f3;
+}
+
+.hero-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 200px;
+}
+.hero-area_content {
+  max-width: 500px;
+}
+.hero-area-title {
+  font-size: 40px;
+  line-height: 60px;
+}
+.hero-area_para {
+  line-height: 30px;
+  margin-top: 10px;
+  color: grey;
+}
+.hero-area-img img {
+  width: 400px;
+}
+.hero-area-btn {
+  margin-top: 20px;
+}
+.hero-area-btn .active {
+  border: none;
+  padding: 5px 20px;
+  background-color: #3f43fd;
+  border-radius: 5px;
+  color: white;
+}
+.hero-area-btn .active:hover {
+  background-color: #0206f3;
+}
+.hero-area-btn button {
+  border: 1px solid;
+  padding: 5px 20px;
+  background-color: white;
+  border-radius: 5px;
+  color: #3f43fd;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.hero-area-btn button:hover {
+  background-color: #3f43fd;
+  color: white;
+}
+
+.about-area {
+  background-color: #3f43fd;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 90px 200px;
+}
+.about-area--img {
+  width: 350px;
+}
+.about-area--content {
+  margin-left: 60px;
+}
+.about-area--content h2 {
+  color: #fff;
+  font-size: 35px;
+}
+.about-area--content p {
+  color: rgb(206, 197, 197);
+  font-size: 15px;
+}
+
+.roadmap {
+  padding: 40px 30px;
+}
+.roadmap--heading {
+  text-align: center;
+}
+.roadmap--heading h2 {
+  font-size: 17px;
+}
+.roadmap--heading p {
+  font-size: 11px;
+  color: grey;
+  line-height: 30px;
+}
+.roadmap--heading .line {
+  width: 60px;
+  height: 5px;
+  background: linear-gradient(to right, rgb(247, 11, 50), blue);
+  border-radius: 10px;
+  margin: 10px auto;
+}
+.roadmap--items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3rem;
+  width: 100%;
+}
+.roadmap--item {
+  text-align: center;
+  background-color: white;
+  max-width: 400px;
+  padding: 20px;
+  height: 200px;
+  box-shadow: 0px 2px 8px rgb(80, 79, 79);
+  border-radius: 10px;
+}
+.roadmap--item:hover {
+  box-shadow: 0px 2px 8px #3f43fd;
+}
+.roadmap--item:hover h3:hover {
+  color: #3f43fd;
+}
+.roadmap--item img {
+  width: 100px;
+  padding: 20px;
+}
+.roadmap--item--content {
+  color: grey;
+}
+.roadmap--item--content p {
+  font-size: 12px;
+}
+
+.courses {
+  background-color: #3f43fd;
+  padding: 30px;
+  margin-top: 90px;
+}
+.courses--heading {
+  text-align: center;
+}
+.courses--heading h1 {
+  color: #fff;
+}
+.courses--heading p {
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+}
+.courses--cardes {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.courses--carde {
+  width: 300px;
+  height: 440px;
+  background-color: rgb(199, 197, 196);
+  border-radius: 10px;
+}
+.courses--carde img {
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.courses--carde_desc {
+  padding: 20px;
+}
+.courses--carde_desc p {
+  line-height: 25px;
+  font-size: 12px;
+}
+
+.header-btn button {
+  border: none;
+  padding: 5px 20px;
+  background-color: #3f43fd;
+  border-radius: 5px;
+  color: white;
+}
+
+.header-btn button:hover {
+  background-color: #0206f3;
+}
+
+.contact {
+  padding: 50px 150px;
+  background: rgb(216, 214, 214);
+}
+.contact--card {
+  background-color: #fff;
+  display: flex;
+  padding: 20px 30px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.contact--card h2 {
+  margin-top: -20;
+  font-size: 15px;
+}
+.contact--card p {
+  color: grey;
+  font-size: 12px;
+}
+.contact--card .grow {
+  flex-grow: 1;
+  padding: 10px;
+  margin-top: 20px;
+}
+.contact--card .grow .btn {
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  background-color: #3f43fd;
+  color: white;
+}
+.contact-img img {
+  width: 450px;
+  padding: 10px;
+}
+
+.resize-x {
+  resize: none;
+}
+
+footer {
+  background-color: #3f43fd;
+  padding: 30px 30px;
+  text-align: center;
+  color: #fff;
+}
+footer .brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -17px;
+}
+footer img {
+  width: 90px;
+}
+footer .name {
+  font-size: 30px;
+  margin-left: -24px;
+  background: linear-gradient(to right, rgb(183, 255, 174), rgb(255, 252, 65));
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+.social-icons a {
+  margin-left: 10px;
+  font-size: 30px;
+  transition: 0.5s;
+}
+.social-icons a:hover {
+  color: #fff;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.form-control {
+  padding: 10px 30px;
+  background-color: rgb(226, 225, 225);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-top: 10px;
+}
+.form-control:focus {
+  border: 2px solid #3f43fd;
+}/*# sourceMappingURL=main.css.map */

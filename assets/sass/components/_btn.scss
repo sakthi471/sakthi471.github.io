@@ -1,0 +1,15 @@
+@use "../abastract/functions" as func;
+
+.header{
+    &-btn button{
+        border: none;
+        padding: 5px 20px;
+        background-color:func.theme-color();
+        border-radius: 5px;
+        color:white;
+    }
+    &-btn button:hover{
+        background-color: func.theme-color(priamry-hover);
+    } 
+    
+}

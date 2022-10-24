@@ -1,0 +1,48 @@
+@use "../components/btn"as btn;
+@use "../abastract/functions" as fun;
+.contact{
+    padding: 50px 150px;
+    // width: 100%;
+    
+    background: rgb(216, 214, 214);
+    &--card{
+        background-color: #fff;
+        display: flex;
+        padding: 20px 30px;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px ;
+        h2{
+            margin-top: -20;
+            font-size: 15px;
+        }
+        p{  color: grey;
+            font-size: 12px;
+
+        }
+        .grow{
+            flex-grow: 1;
+            padding: 10px;
+            margin-top: 20px;
+          .btn{
+            padding:  5px 20px;
+            border-radius:5px ;
+            margin-top: 10px;
+            outline: none;
+            border: none;
+            background-color: fun.theme-color();
+            color: white;
+          }
+
+        }
+    }
+   &-img img{
+    width: 450px;
+    padding: 10px;
+   }
+    
+}
+.resize-x{
+  resize: none;
+}
+

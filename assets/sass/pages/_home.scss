@@ -1,0 +1,61 @@
+@use "../components/btn";
+@use "../abastract/functions" as func;
+@use "../abastract/varaibles";
+
+.hero-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 200px;
+
+    //    background: rebeccapurple;
+    &_content {
+        max-width: 500px;
+    }
+
+    &-title {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    &_para {
+        line-height: 30px;
+        margin-top: 10px;
+        color: grey;
+
+    }
+
+    &-img img {
+        width: 400px;
+    }
+    &-btn{
+        margin-top: 20px;
+    }
+
+    &-btn .active {
+        border: none;
+        padding: 5px 20px;
+        background-color: func.theme-color();
+        border-radius: 5px;
+        color: white;
+    }
+
+    &-btn .active:hover {
+        background-color: func.theme-color(priamry-hover);
+    }
+    &-btn button {
+        border: 1px solid ;
+        padding: 5px 20px;
+        background-color: white;
+        border-radius: 5px;
+        color:func.theme-color();
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    &-btn button:hover{
+        background-color: func.theme-color();
+        color: white;
+        
+    }
+   
+}

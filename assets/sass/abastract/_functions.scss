@@ -1,0 +1,5 @@
+@use "../abastract/varaibles"as var;
+
+@function theme-color($color:"priamry-color"){
+    @return map-get(var.$theme-color,$color );
+}
