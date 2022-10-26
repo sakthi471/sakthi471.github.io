@@ -171,11 +171,19 @@
   margin-top: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+@media (max-width: 575px) {
+  .hero-area-btn {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 .hero-area-btn button {
   padding: 7px 10px;
   margin-top: 20px;
+}
+.hero-area-btn button .fas {
+  margin-right: 5px;
 }
 .hero-area-btn .active {
   border: none;
@@ -199,6 +207,11 @@
 .hero-area-btn button:hover {
   background-color: #191dff;
   color: white;
+}
+
+span {
+  background-color: rgb(13, 14, 14);
+  width: 200px;
 }
 
 .about-area {
@@ -319,7 +332,7 @@
 }
 @media (max-width: 575px) {
   .courses {
-    padding: 100px 30px;
+    padding: 70px 30px;
   }
 }
 .courses--heading {
@@ -348,6 +361,7 @@
   .courses--cardes {
     flex-direction: column;
     margin-top: 10px;
+    align-items: center;
   }
 }
 .courses--carde {

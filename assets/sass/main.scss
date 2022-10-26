@@ -1,7 +1,7 @@
-// font family 
+// font family import from google
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&family=Roboto:ital,wght@0,500;1,300&display=swap');
 
-//global 
+//global file
 @import"./base/global";
 //varaibles 
 @import"./abastract/varaibles";
@@ -15,7 +15,7 @@
 @import"./components/btn";
 //form
 @import"./components/forms";
-
+//animations
 @import"./utilets/animation";
 //hoem page
 @import"./pages/home";
@@ -38,6 +38,6 @@
 //form
 
 @import"./components/forms";
-//spaing 
+//spacing 
 
 @import "./utilets/spacing";

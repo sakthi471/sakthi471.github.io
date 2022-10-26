@@ -5,7 +5,7 @@
     padding: 30px;
     margin-top: 90px;
     @include mix.responsive(xs){
-        padding: 100px 30px;
+        padding: 70px 30px;
     }
     &--heading {
         text-align: center;
@@ -32,6 +32,7 @@
         @include mix.responsive(xs){
            flex-direction: column;
            margin-top: 10px;
+           align-items: center;
            }
        
     }
