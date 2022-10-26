@@ -34,9 +34,17 @@
   }
     &-menu{
     display: flex;
-    @include mix.responsive(xs){
-      display: none;
-  }
+      ul{
+        @include mix.responsive(xs){
+          //display: none;
+          background-color: #0ac2fa;
+          position: fixed;
+          width: 100vw;
+          height: 100vh;
+          top:70px;
+      
+        }
+      }
 
    }
    &-item{
