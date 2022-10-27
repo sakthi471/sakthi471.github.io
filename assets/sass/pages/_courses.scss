@@ -27,6 +27,7 @@
         width: 100%;
         // background-color: rgb(228, 219, 219);
         display: flex;
+        padding-bottom:30px ;
         margin-top: 50px;
         justify-content: space-around;
         @include mix.responsive(xs){
@@ -37,8 +38,8 @@
        
     }
     &--carde{
-        width: 300px;
-        height: 440px;
+        width: 270px;
+        height: 400px;
         background-color:rgb(199, 197, 196);
         border-radius: 10px;
         @include mix.responsive(xs){
@@ -49,7 +50,8 @@
             
         }
         img{
-            width: 300px;
+            width: 270px;
+            height: 130px;
              border-top-left-radius:10px ;
              border-top-right-radius:10px ;
              @include mix.responsive(xs){

@@ -21,7 +21,7 @@
     &-menu_btn img{
       display: none;
       @include mix.responsive(xs){
-       width: 30px;
+       width: 25px;
        display: block;
     }
     }
@@ -29,38 +29,58 @@
     color:$primary-text-color;
    img{
     width: 60px;
+    @include mix.responsive(xs){
+      width: 50px;
+    }
    }
   
   }
     &-menu{
     display: flex;
-      ul{
-        @include mix.responsive(xs){
-          //display: none;
-          background-color: #0ac2fa;
-          position: fixed;
-          width: 100vw;
-          height: 100vh;
-          top:70px;
-      
-        }
-      }
+    @include mix.responsive(xs){
+    display: none;
+    
+  }
+  @include mix.responsive(xs){
+    
+  
+   &.show{
+    display: block;
+    background-color: #0ac2fa;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top:65px;
+    left: 0;
+     text-align: center;
+   }
+   }
 
    }
    &-item{
      display: inline-block;
      margin-left: 40px;
      list-style: none;
+     @include mix.responsive(xs){
+       display: block !important; 
+       padding: 10px 10px;
+       margin: 0;
+       margin-top: 20px;
+      
+    }
      .active{
       color: func.theme-color();
      }
+     
     }
     &-link{
         text-decoration: none;
         color: $primary-text-color;
         font-size: 14px;
         text-transform: uppercase;
+       
     }
+
     &-link:hover{
       color:func.theme-color(priamry-hover);
     }
