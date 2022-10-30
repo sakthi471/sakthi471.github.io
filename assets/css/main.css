@@ -83,27 +83,28 @@
   }
 }
 .header-item .active {
-  color: #191dff;
+  color: #080aac;
 }
 .header-link {
   text-decoration: none;
   color: black;
   font-size: 14px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .header-link:hover {
-  color: #4e51fc;
+  color: #080aac;
 }
 
 .header-btn button {
   border: none;
   padding: 5px 20px;
-  background-color: #191dff;
+  background-color: #050872;
   border-radius: 5px;
   color: white;
 }
 .header-btn button:hover {
-  background-color: #4e51fc;
+  background-color: #080aac;
 }
 
 .form-control {
@@ -116,7 +117,7 @@
   margin-top: 10px;
 }
 .form-control:focus {
-  border: 2px solid #191dff;
+  border: 2px solid #050872;
 }
 
 .anim {
@@ -144,13 +145,13 @@
 .header-btn button {
   border: none;
   padding: 5px 20px;
-  background-color: #191dff;
+  background-color: #050872;
   border-radius: 5px;
   color: white;
 }
 
 .header-btn button:hover {
-  background-color: #4e51fc;
+  background-color: #080aac;
 }
 
 .hero-area {
@@ -214,24 +215,24 @@
 .hero-area-btn .active {
   border: none;
   padding: 5px 20px;
-  background-color: #191dff;
+  background-color: #050872;
   border-radius: 5px;
   color: white;
 }
 .hero-area-btn .active:hover {
-  background-color: #4e51fc;
+  background-color: #080aac;
 }
 .hero-area-btn button {
   border: 1px solid;
   padding: 5px 20px;
   background-color: white;
   border-radius: 5px;
-  color: #191dff;
+  color: #050872;
   margin-left: 10px;
   cursor: pointer;
 }
 .hero-area-btn button:hover {
-  background-color: #191dff;
+  background-color: #050872;
   color: white;
 }
 
@@ -241,7 +242,7 @@ span {
 }
 
 .about-area {
-  background-color: #191dff;
+  background-color: #050872;
   display: flex;
   max-width: 100%;
   align-items: center;
@@ -335,10 +336,10 @@ span {
   }
 }
 .roadmap--item:hover {
-  box-shadow: 0px 2px 8px #191dff;
+  box-shadow: 0px 2px 8px #050872;
 }
 .roadmap--item:hover h3:hover {
-  color: #191dff;
+  color: #050872;
 }
 .roadmap--item img {
   width: 100px;
@@ -352,7 +353,7 @@ span {
 }
 
 .courses {
-  background-color: #191dff;
+  background-color: #050872;
   padding: 30px;
   margin-top: 90px;
 }
@@ -436,13 +437,13 @@ span {
 .header-btn button {
   border: none;
   padding: 5px 20px;
-  background-color: #191dff;
+  background-color: #050872;
   border-radius: 5px;
   color: white;
 }
 
 .header-btn button:hover {
-  background-color: #4e51fc;
+  background-color: #080aac;
 }
 
 .contact {
@@ -497,7 +498,7 @@ span {
   margin-top: 10px;
   outline: none;
   border: none;
-  background-color: #191dff;
+  background-color: #050872;
   color: white;
 }
 .contact-img img {
@@ -515,7 +516,7 @@ span {
 }
 
 footer {
-  background-color: #191dff;
+  background-color: #050872;
   padding: 30px 30px;
   text-align: center;
   color: #fff;
@@ -561,7 +562,7 @@ p {
   margin-top: 10px;
 }
 .form-control:focus {
-  border: 2px solid #191dff;
+  border: 2px solid #050872;
 }
 
 .m-1 {
